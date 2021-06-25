@@ -11,16 +11,24 @@
 .author-profile__avatar {
   width: 5rem;
   height: 5rem;
-  margin-top: map-get($spacers, 2);
-  border-radius: 50%;
+  margin-top: map-get($spacers, 3);
+  border-top-left-radius: map-get($base, border-radius);
+  border-top-right-radius: map-get($base, border-radius);
+  border-bottom-left-radius: map-get($base, border-radius);
+  border-bottom-right-radius: map-get($base, border-radius);
 }
 .author-profile__name {
   font-size: map-get($base, font-size-lg);
+  margin-left: map-get($spacers, 3);
   font-weight: map-get($base, font-weight-bold);
   a {
     @include link-colors($text-color, $main-color-1);
   }
 }
+.author-profile__bio {
+  margin-left: map-get($spacers, 3);
+}
 .author-profile__links {
+  margin-left: map-get($spacers, 3);
   @include overflow(auto);
 }

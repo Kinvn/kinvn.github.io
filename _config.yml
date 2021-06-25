@@ -37,8 +37,8 @@ author:
   type      : # "person" (default), "organization"
   name      : Kinvn
   url       :
-  avatar    : # path or url of avatar image (square)
-  bio       : 因为我，扑了空
+  avatar    : /assets/images/avatar.jpeg # path or url of avatar image (square)
+  bio       : 因为我，扑了空。
   email     : kinvn123@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : Kinvn_ # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -118,7 +118,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -127,12 +127,13 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
+    clientID    : 105348e478b31db662b6 # GitHub Application Client ID
+    clientSecret: 3b692616fc467e38e4a9536ceb2a914092df96e6 # GitHub Application Client Secret
+    repository  : kinvn.github.io # GitHub repo
+    owner       : Kinvn # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
+      - Kinvn
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
