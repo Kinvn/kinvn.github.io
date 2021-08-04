@@ -43,6 +43,7 @@ ul.toc {
     padding: map-get($spacers, 2) 0 map-get($spacers, 1) 0;
     margin-bottom: map-get($spacers, 2);
     color: $text-color-d;
+    width: 70%;
     &, a {
       font-size: map-get($base, font-size);
       font-weight: map-get($base, font-weight-bold);
